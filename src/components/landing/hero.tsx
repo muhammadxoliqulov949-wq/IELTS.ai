@@ -34,7 +34,7 @@ export function Hero() {
           <p className="mt-5 max-w-xl text-lg text-muted-foreground text-pretty">{t("subtitle")}</p>
 
           <div className="mt-8 flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
-            <Link href="/#waitlist" className={cn(buttonVariants(), "h-12 px-6 text-base")}>
+            <Link href="/writing" className={cn(buttonVariants(), "h-12 px-6 text-base")}>
               {t("primaryCta")}
               <ArrowRightIcon />
             </Link>

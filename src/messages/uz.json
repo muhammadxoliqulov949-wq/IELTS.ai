@@ -10,7 +10,8 @@
     "dashboard": "Kabinet",
     "joinWaitlist": "Roʻyxatga yozilish",
     "openMenu": "Menyuni ochish",
-    "language": "Til"
+    "language": "Til",
+    "writing": "Writing"
   },
   "Hero": {
     "badge": "Beta tez orada · Oʻzbekistonda birinchi",
@@ -132,6 +133,93 @@
         "a": "Pro tarif ishga tushganda Click, Payme va xalqaro kartalar orqali toʻlash mumkin boʻladi."
       }
     ]
+  },
+  "Writing": {
+    "picker": {
+      "eyebrow": "Writing moduli",
+      "title": "Topshiriqni tanlang",
+      "subtitle": "Real imtihon vaqtida yozing va 4 mezon boʻyicha AI bahosini oling.",
+      "task1": "Task 1",
+      "task2": "Task 2",
+      "task1Desc": "Grafik, jadval yoki jarayonni tasvirlash",
+      "task2Desc": "Fikr bildiruvchi insho",
+      "minutes": "{count} daqiqa",
+      "minWords": "{count}+ soʻz",
+      "start": "Boshlash"
+    },
+    "workspace": {
+      "exit": "Chiqish",
+      "prompt": "Topshiriq",
+      "visualTitle": "Vizual maʼlumot",
+      "visualNote": "Bu yerda grafik koʻrsatiladi (MVP: placeholder).",
+      "visualKinds": {
+        "bar": "Ustunli diagramma",
+        "line": "Chiziqli grafik",
+        "pie": "Doiraviy diagramma",
+        "table": "Jadval",
+        "process": "Jarayon diagrammasi",
+        "map": "Xarita"
+      },
+      "editorLabel": "Javobingiz",
+      "placeholder": "Javobingizni shu yerga yozing…",
+      "focusOn": "Fokus rejimi",
+      "focusOff": "Topshiriqni koʻrsatish",
+      "submit": "Yuborish",
+      "words": "{count} soʻz",
+      "minTarget": "minimum {count}",
+      "underMin": "Yana {count} soʻz kerak",
+      "reachedMin": "Minimal hajmga yetdingiz",
+      "underMinWarning": "Soʻzlar soni minimaldan kam — bu Task Response balini pasaytiradi.",
+      "draftNote": "Qoralama avtomatik saqlanadi"
+    },
+    "timer": {
+      "label": "Qolgan vaqt",
+      "pause": "Toʻxtatish",
+      "resume": "Davom ettirish",
+      "paused": "Taymer toʻxtatildi. Real imtihonda bunday imkoniyat yoʻq.",
+      "warning": "5 daqiqadan kam vaqt qoldi — xulosani yozishni boshlang.",
+      "critical": "1 daqiqadan kam vaqt qoldi!",
+      "expired": "Vaqt tugadi. Javobingizni yuboring."
+    },
+    "analyzing": {
+      "title": "AI inshoingizni tahlil qilmoqda",
+      "subtitle": "Bu bir necha soniya davom etadi.",
+      "steps": {
+        "task": "Topshiriq bajarilishi tekshirilmoqda",
+        "coherence": "Izchillik va bogʻliqlik baholanmoqda",
+        "lexical": "Leksik boylik tahlil qilinmoqda",
+        "grammar": "Grammatika tekshirilmoqda"
+      }
+    },
+    "result": {
+      "eyebrow": "Writing natijasi",
+      "overall": "Umumiy band",
+      "sample": "Namuna natija",
+      "sampleNote": "Bu topshiriq uchun yuborilgan javob topilmadi, shuning uchun namuna natija koʻrsatilmoqda.",
+      "meta": "{words} soʻz · {minutes} daqiqa",
+      "criteria": {
+        "taskResponse": "Task Achievement / Response",
+        "coherenceCohesion": "Coherence & Cohesion",
+        "lexicalResource": "Lexical Resource",
+        "grammaticalRange": "Grammatical Range & Accuracy"
+      },
+      "strengths": "Kuchli tomonlar",
+      "weaknesses": "Yaxshilash kerak",
+      "corrections": "Xatolar va tuzatishlar",
+      "yourEssay": "Sizning matningiz",
+      "noEssay": "Matn mavjud emas.",
+      "categories": {
+        "grammar": "Grammatika",
+        "vocabulary": "Leksika",
+        "spelling": "Imlo",
+        "punctuation": "Tinish belgilari",
+        "coherence": "Izchillik"
+      },
+      "tips": "Yaxshilash uchun 3 ta maslahat",
+      "retry": "Qayta yozish",
+      "otherTask": "Boshqa topshiriq",
+      "disclaimer": "Bu mock AI bahosi boʻlib, rasmiy IELTS natijasi emas."
+    }
   },
   "Footer": {
     "tagline": "Sunʼiy intellektga asoslangan IELTS tayyorgarlik platformasi.",

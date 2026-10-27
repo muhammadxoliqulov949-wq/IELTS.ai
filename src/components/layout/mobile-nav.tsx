@@ -8,7 +8,7 @@ import { Button, buttonVariants } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet";
 import { Logo } from "@/components/shared/logo";
 import { cn } from "@/lib/utils";
-import { landingNavLinks } from "./nav-links";
+import { navLinks } from "./nav-links";
 
 export function MobileNav() {
   const t = useTranslations("Nav");
@@ -49,7 +49,7 @@ export function MobileNav() {
           </SheetTitle>
         </SheetHeader>
         <nav className="flex flex-col gap-1 px-4" aria-label="Mobile">
-          {landingNavLinks.map((link) => (
+          {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}

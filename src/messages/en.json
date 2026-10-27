@@ -10,7 +10,8 @@
     "dashboard": "Dashboard",
     "joinWaitlist": "Join waitlist",
     "openMenu": "Open menu",
-    "language": "Language"
+    "language": "Language",
+    "writing": "Writing"
   },
   "Hero": {
     "badge": "Beta coming soon · Built for Uzbekistan",
@@ -132,6 +133,93 @@
         "a": "When Pro launches you'll be able to pay with Click, Payme and international cards."
       }
     ]
+  },
+  "Writing": {
+    "picker": {
+      "eyebrow": "Writing module",
+      "title": "Choose a task",
+      "subtitle": "Write under real exam timing and get an AI band on all four criteria.",
+      "task1": "Task 1",
+      "task2": "Task 2",
+      "task1Desc": "Describe a chart, table or process",
+      "task2Desc": "Opinion / discussion essay",
+      "minutes": "{count} min",
+      "minWords": "{count}+ words",
+      "start": "Start"
+    },
+    "workspace": {
+      "exit": "Exit",
+      "prompt": "Prompt",
+      "visualTitle": "Visual data",
+      "visualNote": "The chart will be shown here (MVP placeholder).",
+      "visualKinds": {
+        "bar": "Bar chart",
+        "line": "Line graph",
+        "pie": "Pie chart",
+        "table": "Table",
+        "process": "Process diagram",
+        "map": "Map"
+      },
+      "editorLabel": "Your answer",
+      "placeholder": "Start writing your answer here…",
+      "focusOn": "Focus mode",
+      "focusOff": "Show task",
+      "submit": "Submit",
+      "words": "{count} words",
+      "minTarget": "min {count}",
+      "underMin": "{count} more words needed",
+      "reachedMin": "Minimum length reached",
+      "underMinWarning": "Your answer is under the minimum length — this lowers your Task Response band.",
+      "draftNote": "Draft saves automatically"
+    },
+    "timer": {
+      "label": "Time left",
+      "pause": "Pause",
+      "resume": "Resume",
+      "paused": "Timer paused. The real exam won't let you do this.",
+      "warning": "Less than 5 minutes left — start your conclusion.",
+      "critical": "Less than 1 minute left!",
+      "expired": "Time is up. Please submit your answer."
+    },
+    "analyzing": {
+      "title": "AI is analysing your essay",
+      "subtitle": "This takes a few seconds.",
+      "steps": {
+        "task": "Checking task response",
+        "coherence": "Scoring coherence and cohesion",
+        "lexical": "Analysing lexical resource",
+        "grammar": "Checking grammar"
+      }
+    },
+    "result": {
+      "eyebrow": "Writing result",
+      "overall": "Overall band",
+      "sample": "Sample result",
+      "sampleNote": "No submitted answer was found for this task, so a sample result is shown.",
+      "meta": "{words} words · {minutes} min",
+      "criteria": {
+        "taskResponse": "Task Achievement / Response",
+        "coherenceCohesion": "Coherence & Cohesion",
+        "lexicalResource": "Lexical Resource",
+        "grammaticalRange": "Grammatical Range & Accuracy"
+      },
+      "strengths": "Strengths",
+      "weaknesses": "To improve",
+      "corrections": "Errors and corrections",
+      "yourEssay": "Your essay",
+      "noEssay": "No text available.",
+      "categories": {
+        "grammar": "Grammar",
+        "vocabulary": "Vocabulary",
+        "spelling": "Spelling",
+        "punctuation": "Punctuation",
+        "coherence": "Coherence"
+      },
+      "tips": "3 tips to improve",
+      "retry": "Write again",
+      "otherTask": "Another task",
+      "disclaimer": "This is a mock AI estimate, not an official IELTS result."
+    }
   },
   "Footer": {
     "tagline": "AI-powered IELTS preparation platform.",

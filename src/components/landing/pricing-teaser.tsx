@@ -53,7 +53,7 @@ export function PricingTeaser() {
                 </CardContent>
                 <CardFooter>
                   <Link
-                    href="/#waitlist"
+                    href={isPro ? "/#waitlist" : "/writing"}
                     className={cn(
                       buttonVariants({ variant: isPro ? "default" : "outline" }),
                       "h-11 w-full text-base",

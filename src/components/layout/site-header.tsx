@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import { Logo } from "@/components/shared/logo";
 import { LocaleSwitcher } from "./locale-switcher";
 import { MobileNav } from "./mobile-nav";
-import { landingNavLinks } from "./nav-links";
+import { navLinks } from "./nav-links";
 
 export function SiteHeader() {
   const t = useTranslations("Nav");
@@ -18,7 +18,7 @@ export function SiteHeader() {
         </Link>
 
         <nav className="hidden items-center gap-1 md:flex" aria-label="Main">
-          {landingNavLinks.map((link) => (
+          {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
