@@ -6,10 +6,10 @@ import { Link } from "@/i18n/navigation";
 import { Badge } from "@/components/ui/badge";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { Logo } from "@/components/shared/logo";
+import { ExamTimer } from "@/components/exam/exam-timer";
 import type { useCountdown } from "@/hooks/use-countdown";
 import { cn } from "@/lib/utils";
 import type { WritingTask } from "@/types/ielts";
-import { ExamTimer } from "./exam-timer";
 
 interface ExamTopBarProps {
   task: WritingTask;
@@ -21,6 +21,7 @@ interface ExamTopBarProps {
 
 export function ExamTopBar({ task, timer, focusMode, onToggleFocus, disabled }: ExamTopBarProps) {
   const t = useTranslations("Writing");
+  const tExam = useTranslations("Exam");
 
   return (
     <header className="sticky top-0 z-30 border-b bg-background/90 backdrop-blur">
@@ -53,7 +54,7 @@ export function ExamTopBar({ task, timer, focusMode, onToggleFocus, disabled }: 
             className={cn(buttonVariants({ variant: "ghost", size: "sm" }), "h-9")}
           >
             <LogOutIcon />
-            <span className="hidden sm:inline">{t("workspace.exit")}</span>
+            <span className="hidden sm:inline">{tExam("exit")}</span>
           </Link>
         </div>
       </div>

@@ -20,7 +20,7 @@ interface ExamTimerProps {
 }
 
 export function ExamTimer({ timer, disabled }: ExamTimerProps) {
-  const t = useTranslations("Writing.timer");
+  const t = useTranslations("Exam.timer");
   const canToggle = !disabled && timer.status !== "expired";
 
   return (

@@ -106,6 +106,8 @@ export interface ReadingPassage {
 export interface ReadingTest {
   id: string;
   title: string;
+  /** One-line topic summary for the test list. */
+  summary: string;
   timeLimitMinutes: number;
   passage: ReadingPassage;
   questions: ReadingQuestion[];
@@ -120,6 +122,8 @@ export interface ReadingResult {
   total: number;
   band: BandScore;
   answers: ReadingAnswers;
+  timeSpentSeconds: number;
+  finishedAt: string;
 }
 
 // ---------- Dashboard ----------

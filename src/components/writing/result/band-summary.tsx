@@ -1,9 +1,9 @@
 import { useTranslations } from "next-intl";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
+import { BandRing } from "@/components/shared/band-ring";
 import { formatBand } from "@/lib/band";
 import type { WritingFeedback, WritingSubmission, WritingTask } from "@/types/ielts";
-import { BandRing } from "./band-ring";
 
 interface BandSummaryProps {
   task: WritingTask;

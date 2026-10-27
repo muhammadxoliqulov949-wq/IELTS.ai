@@ -22,7 +22,7 @@ const styles: Record<AlertStatus, { className: string; icon: typeof AlarmClockIc
 
 /** Banner above the editor for paused / low-time / expired states. */
 export function TimerAlert({ status }: { status: CountdownStatus }) {
-  const t = useTranslations("Writing.timer");
+  const t = useTranslations("Exam.timer");
   if (status === "running") return null;
 
   const { className, icon: Icon } = styles[status];

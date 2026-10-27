@@ -11,7 +11,8 @@
     "joinWaitlist": "Join waitlist",
     "openMenu": "Open menu",
     "language": "Language",
-    "writing": "Writing"
+    "writing": "Writing",
+    "reading": "Reading"
   },
   "Hero": {
     "badge": "Beta coming soon · Built for Uzbekistan",
@@ -148,7 +149,6 @@
       "start": "Start"
     },
     "workspace": {
-      "exit": "Exit",
       "prompt": "Prompt",
       "visualTitle": "Visual data",
       "visualNote": "The chart will be shown here (MVP placeholder).",
@@ -171,15 +171,6 @@
       "reachedMin": "Minimum length reached",
       "underMinWarning": "Your answer is under the minimum length — this lowers your Task Response band.",
       "draftNote": "Draft saves automatically"
-    },
-    "timer": {
-      "label": "Time left",
-      "pause": "Pause",
-      "resume": "Resume",
-      "paused": "Timer paused. The real exam won't let you do this.",
-      "warning": "Less than 5 minutes left — start your conclusion.",
-      "critical": "Less than 1 minute left!",
-      "expired": "Time is up. Please submit your answer."
     },
     "analyzing": {
       "title": "AI is analysing your essay",
@@ -219,6 +210,71 @@
       "retry": "Write again",
       "otherTask": "Another task",
       "disclaimer": "This is a mock AI estimate, not an official IELTS result."
+    }
+  },
+  "Exam": {
+    "exit": "Exit",
+    "timer": {
+      "label": "Time left",
+      "pause": "Pause",
+      "resume": "Resume",
+      "paused": "Timer paused. The real exam won't let you do this.",
+      "warning": "Less than 5 minutes left — start your conclusion.",
+      "critical": "Less than 1 minute left!",
+      "expired": "Time is up. Please submit your answer."
+    }
+  },
+  "Reading": {
+    "picker": {
+      "eyebrow": "Reading module",
+      "title": "Choose a Reading mock test",
+      "subtitle": "Each test has one passage, 10 questions and 20 minutes.",
+      "questions": "{count} questions",
+      "minutes": "{count} min",
+      "start": "Start"
+    },
+    "workspace": {
+      "passage": "Passage",
+      "questions": "Questions",
+      "tfngTitle": "Questions {from}–{to}",
+      "tfngInstruction": "Do the following statements agree with the information in the passage? Choose TRUE, FALSE or NOT GIVEN.",
+      "mcTitle": "Questions {from}–{to}",
+      "mcInstruction": "Choose the correct letter: A, B, C or D.",
+      "tfng": {
+        "true": "TRUE",
+        "false": "FALSE",
+        "not_given": "NOT GIVEN"
+      },
+      "palette": "Question navigation",
+      "answered": "{answered}/{total} answered",
+      "finish": "Finish test",
+      "goTo": "Go to question {number}"
+    },
+    "finish": {
+      "title": "Finish the test?",
+      "allAnswered": "You have answered every question. Finish to see your result.",
+      "unanswered": "{count} questions are unanswered. They will be marked as incorrect.",
+      "cancel": "Keep going",
+      "confirm": "Finish"
+    },
+    "result": {
+      "eyebrow": "Reading result",
+      "band": "Estimated band",
+      "score": "{correct}/{total} correct",
+      "time": "{minutes} min",
+      "review": "Answer review",
+      "yourAnswer": "Your answer",
+      "correctAnswer": "Correct answer",
+      "noAnswer": "Not answered",
+      "correct": "Correct",
+      "incorrect": "Incorrect",
+      "showAll": "All",
+      "showIncorrect": "Mistakes only",
+      "empty": "No result was found for this test.",
+      "emptyCta": "Start the test",
+      "retry": "Try again",
+      "otherTest": "Another test",
+      "disclaimer": "The band is an estimate scaled to the 40-question format, not an official IELTS result."
     }
   },
   "Footer": {

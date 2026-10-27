@@ -11,7 +11,8 @@
     "joinWaitlist": "Roʻyxatga yozilish",
     "openMenu": "Menyuni ochish",
     "language": "Til",
-    "writing": "Writing"
+    "writing": "Writing",
+    "reading": "Reading"
   },
   "Hero": {
     "badge": "Beta tez orada · Oʻzbekistonda birinchi",
@@ -148,7 +149,6 @@
       "start": "Boshlash"
     },
     "workspace": {
-      "exit": "Chiqish",
       "prompt": "Topshiriq",
       "visualTitle": "Vizual maʼlumot",
       "visualNote": "Bu yerda grafik koʻrsatiladi (MVP: placeholder).",
@@ -171,15 +171,6 @@
       "reachedMin": "Minimal hajmga yetdingiz",
       "underMinWarning": "Soʻzlar soni minimaldan kam — bu Task Response balini pasaytiradi.",
       "draftNote": "Qoralama avtomatik saqlanadi"
-    },
-    "timer": {
-      "label": "Qolgan vaqt",
-      "pause": "Toʻxtatish",
-      "resume": "Davom ettirish",
-      "paused": "Taymer toʻxtatildi. Real imtihonda bunday imkoniyat yoʻq.",
-      "warning": "5 daqiqadan kam vaqt qoldi — xulosani yozishni boshlang.",
-      "critical": "1 daqiqadan kam vaqt qoldi!",
-      "expired": "Vaqt tugadi. Javobingizni yuboring."
     },
     "analyzing": {
       "title": "AI inshoingizni tahlil qilmoqda",
@@ -219,6 +210,71 @@
       "retry": "Qayta yozish",
       "otherTask": "Boshqa topshiriq",
       "disclaimer": "Bu mock AI bahosi boʻlib, rasmiy IELTS natijasi emas."
+    }
+  },
+  "Exam": {
+    "exit": "Chiqish",
+    "timer": {
+      "label": "Qolgan vaqt",
+      "pause": "Toʻxtatish",
+      "resume": "Davom ettirish",
+      "paused": "Taymer toʻxtatildi. Real imtihonda bunday imkoniyat yoʻq.",
+      "warning": "5 daqiqadan kam vaqt qoldi — xulosani yozishni boshlang.",
+      "critical": "1 daqiqadan kam vaqt qoldi!",
+      "expired": "Vaqt tugadi. Javobingizni yuboring."
+    }
+  },
+  "Reading": {
+    "picker": {
+      "eyebrow": "Reading moduli",
+      "title": "Reading mock testni tanlang",
+      "subtitle": "Har bir test — 1 ta matn, 10 ta savol va 20 daqiqa.",
+      "questions": "{count} ta savol",
+      "minutes": "{count} daqiqa",
+      "start": "Boshlash"
+    },
+    "workspace": {
+      "passage": "Matn",
+      "questions": "Savollar",
+      "tfngTitle": "{from}–{to}-savollar",
+      "tfngInstruction": "Quyidagi fikrlar matndagi maʼlumotga mos keladimi? TRUE, FALSE yoki NOT GIVEN ni tanlang.",
+      "mcTitle": "{from}–{to}-savollar",
+      "mcInstruction": "Toʻgʻri javobni tanlang: A, B, C yoki D.",
+      "tfng": {
+        "true": "TRUE",
+        "false": "FALSE",
+        "not_given": "NOT GIVEN"
+      },
+      "palette": "Savollar navigatsiyasi",
+      "answered": "{answered}/{total} javob berildi",
+      "finish": "Testni yakunlash",
+      "goTo": "{number}-savolga oʻtish"
+    },
+    "finish": {
+      "title": "Testni yakunlaysizmi?",
+      "allAnswered": "Barcha savollarga javob berdingiz. Natijani koʻrish uchun yakunlang.",
+      "unanswered": "{count} ta savolga javob berilmagan. Ular notoʻgʻri deb hisoblanadi.",
+      "cancel": "Davom etish",
+      "confirm": "Yakunlash"
+    },
+    "result": {
+      "eyebrow": "Reading natijasi",
+      "band": "Taxminiy band",
+      "score": "{correct}/{total} toʻgʻri",
+      "time": "{minutes} daqiqa",
+      "review": "Javoblar tahlili",
+      "yourAnswer": "Sizning javobingiz",
+      "correctAnswer": "Toʻgʻri javob",
+      "noAnswer": "Javob berilmagan",
+      "correct": "Toʻgʻri",
+      "incorrect": "Notoʻgʻri",
+      "showAll": "Hammasi",
+      "showIncorrect": "Faqat xatolar",
+      "empty": "Bu test uchun natija topilmadi.",
+      "emptyCta": "Testni boshlash",
+      "retry": "Qayta topshirish",
+      "otherTest": "Boshqa test",
+      "disclaimer": "Band 40 savollik shkalaga moslab hisoblangan taxminiy natija, rasmiy IELTS natijasi emas."
     }
   },
   "Footer": {

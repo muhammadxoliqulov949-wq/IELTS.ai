@@ -3,6 +3,7 @@
 import { useTranslations } from "next-intl";
 import { useState } from "react";
 import { useRouter } from "@/i18n/navigation";
+import { TimerAlert } from "@/components/exam/timer-alert";
 import { useCountdown } from "@/hooks/use-countdown";
 import { useStorageValue } from "@/hooks/use-storage-value";
 import { evaluateWriting } from "@/mocks/handlers";
@@ -13,7 +14,6 @@ import { AnalyzingState } from "./analyzing-state";
 import { EditorFooter } from "./editor-footer";
 import { ExamTopBar } from "./exam-top-bar";
 import { TaskPrompt } from "./task-prompt";
-import { TimerAlert } from "./timer-alert";
 
 export function WritingWorkspace({ task }: { task: WritingTask }) {
   const t = useTranslations("Writing.workspace");
