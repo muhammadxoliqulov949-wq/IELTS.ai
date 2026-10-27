@@ -1,0 +1,141 @@
+{
+  "Metadata": {
+    "title": "IELTS.ai — sunʼiy intellekt bilan IELTS mock testlar",
+    "description": "Writing va Reading boʻyicha real imtihon formatidagi mock testlar, bir necha soniyada AI baholash va shaxsiy tayyorgarlik rejasi."
+  },
+  "Nav": {
+    "howItWorks": "Qanday ishlaydi",
+    "pricing": "Narxlar",
+    "faq": "Savollar",
+    "dashboard": "Kabinet",
+    "joinWaitlist": "Roʻyxatga yozilish",
+    "openMenu": "Menyuni ochish",
+    "language": "Til"
+  },
+  "Hero": {
+    "badge": "Beta tez orada · Oʻzbekistonda birinchi",
+    "titleStart": "IELTS ballingizni",
+    "titleHighlight": "sunʼiy intellekt",
+    "titleEnd": "bilan oshiring",
+    "subtitle": "Real imtihon formatidagi mock testlarni topshiring va Writing inshoingizga 30 soniyada 4 mezon boʻyicha batafsil baho oling. Repetitor kutish shart emas.",
+    "primaryCta": "Bepul mock test boshlash",
+    "secondaryCta": "Qanday ishlaydi?",
+    "statStudents": "kutish roʻyxatida",
+    "statFeedback": "AI baholash vaqti",
+    "statAccuracy": "band aniqligi (mock)",
+    "previewBand": "Umumiy band",
+    "previewTask": "Writing Task 2",
+    "previewTip": "Bogʻlovchilarni xilma-xil qiling: “however” oʻrniga “nevertheless”."
+  },
+  "HowItWorks": {
+    "eyebrow": "Platforma qanday ishlaydi",
+    "title": "4 qadamda maqsadli balingizga",
+    "subtitle": "Har bir qadamni bosib, nima boʻlishini koʻring.",
+    "steps": {
+      "choose": {
+        "title": "Moduli tanlang",
+        "description": "Writing Task 1/2 yoki Reading mock testini tanlang. Har biri real imtihon vaqti va formatida.",
+        "detail": "Task 1 — 20 daqiqa, 150+ soʻz · Task 2 — 40 daqiqa, 250+ soʻz · Reading — 60 daqiqa"
+      },
+      "practice": {
+        "title": "Imtihon sharoitida yozing",
+        "description": "Chalgʻitmaydigan muharrir, jonli soʻz hisoblagich va ogohlantiruvchi taymer.",
+        "detail": "Taymerni toʻxtatish mumkin, lekin real imtihonda bunday imkoniyat yoʻqligini unutmang."
+      },
+      "feedback": {
+        "title": "AI tahlilini oling",
+        "description": "4 ta rasmiy mezon boʻyicha band, xatolar tuzatilishi va 3 ta aniq maslahat.",
+        "detail": "Task Response · Coherence & Cohesion · Lexical Resource · Grammatical Range & Accuracy"
+      },
+      "track": {
+        "title": "Oʻsishni kuzating",
+        "description": "Kabinetda har bir koʻnikma boʻyicha ball tarixi va zaif tomonlar diagnostikasi.",
+        "detail": "Tizim zaif joylaringizni aniqlab, keyingi mashqni oʻzi tavsiya qiladi."
+      }
+    }
+  },
+  "Pricing": {
+    "eyebrow": "Narxlar",
+    "title": "Bepul boshlang, tayyor boʻlganda Pro'ga oʻting",
+    "subtitle": "Beta davrida barcha kutish roʻyxatidagilar Pro'ni 1 oy bepul sinab koʻradi.",
+    "popular": "Eng mashhur",
+    "soon": "Tez orada",
+    "free": {
+      "name": "Free",
+      "price": "0 soʻm",
+      "period": "doimiy",
+      "cta": "Bepul boshlash",
+      "features": [
+        "Oyiga 2 ta Writing tahlili",
+        "1 ta Reading mock test",
+        "Asosiy band hisoboti",
+        "Shaxsiy kabinet"
+      ]
+    },
+    "pro": {
+      "name": "Pro",
+      "price": "79 000 soʻm",
+      "period": "oyiga",
+      "cta": "Roʻyxatga yozilish",
+      "features": [
+        "Cheksiz Writing tahlili",
+        "Barcha Reading mock testlar",
+        "Xatolar boʻyicha batafsil tuzatishlar",
+        "Zaif tomonlar diagnostikasi",
+        "Shaxsiy tayyorgarlik rejasi"
+      ]
+    }
+  },
+  "Waitlist": {
+    "eyebrow": "Kutish roʻyxati",
+    "title": "Birinchilardan boʻlib kirish huquqini oling",
+    "subtitle": "Beta ochilganda xabar beramiz va Pro'ni 1 oy bepul taqdim etamiz.",
+    "emailLabel": "Email manzil",
+    "emailPlaceholder": "siz@example.com",
+    "targetLabel": "Maqsadli band (ixtiyoriy)",
+    "targetPlaceholder": "Masalan, 7.0",
+    "submit": "Roʻyxatga yozilish",
+    "submitting": "Yuborilmoqda…",
+    "successTitle": "Rahmat! Siz roʻyxatdasiz.",
+    "successText": "{email} manziliga beta ochilganda xabar yuboramiz.",
+    "again": "Boshqa email qoʻshish",
+    "privacy": "Spam yubormaymiz. Istalgan vaqtda obunani bekor qilishingiz mumkin.",
+    "errors": {
+      "emailRequired": "Email manzilni kiriting",
+      "emailInvalid": "Email manzil notoʻgʻri koʻrinishda",
+      "bandRange": "Band 4.0 dan 9.0 gacha boʻlishi kerak",
+      "bandStep": "Band 0.5 qadam bilan boʻlishi kerak (masalan, 6.5)"
+    }
+  },
+  "Faq": {
+    "eyebrow": "Savollar",
+    "title": "Koʻp beriladigan savollar",
+    "items": [
+      {
+        "q": "AI bergan band rasmiy IELTS natijasiga tengmi?",
+        "a": "Yoʻq. IELTS.ai rasmiy imtihon emas va British Council, IDP yoki Cambridge bilan bogʻliq emas. AI bahosi ochiq baholash mezonlariga asoslangan taxminiy ball boʻlib, tayyorgarlik uchun moʻljallangan."
+      },
+      {
+        "q": "Testlardagi matnlar qayerdan olingan?",
+        "a": "Barcha mock testlar jamoamiz tomonidan noldan yozilgan original materiallar. Rasmiy Cambridge kitoblaridan nusxa koʻchirilmaydi."
+      },
+      {
+        "q": "Speaking va Listening ham boʻladimi?",
+        "a": "Ha. Birinchi bosqichda Writing va Reading ishga tushadi, Speaking (ovozli AI suhbat) va Listening keyingi bosqichlarda qoʻshiladi."
+      },
+      {
+        "q": "Telefondan foydalansa boʻladimi?",
+        "a": "Albatta. Platforma mobil qurilmalar uchun moslashtirilgan va uni ilova sifatida bosh ekranga oʻrnatish mumkin."
+      },
+      {
+        "q": "Toʻlovni qanday qilaman?",
+        "a": "Pro tarif ishga tushganda Click, Payme va xalqaro kartalar orqali toʻlash mumkin boʻladi."
+      }
+    ]
+  },
+  "Footer": {
+    "tagline": "Sunʼiy intellektga asoslangan IELTS tayyorgarlik platformasi.",
+    "disclaimer": "IELTS — British Council, IDP va Cambridge University Press & Assessment kompaniyalarining roʻyxatdan oʻtgan savdo belgisi. IELTS.ai ular bilan bogʻliq emas.",
+    "rights": "© {year} IELTS.ai"
+  }
+}

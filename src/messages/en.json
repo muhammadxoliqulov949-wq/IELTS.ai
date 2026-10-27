@@ -1,0 +1,141 @@
+{
+  "Metadata": {
+    "title": "IELTS.ai — AI-powered IELTS mock tests",
+    "description": "Exam-format Writing and Reading mock tests, AI band scoring in seconds and a personal study plan."
+  },
+  "Nav": {
+    "howItWorks": "How it works",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "dashboard": "Dashboard",
+    "joinWaitlist": "Join waitlist",
+    "openMenu": "Open menu",
+    "language": "Language"
+  },
+  "Hero": {
+    "badge": "Beta coming soon · Built for Uzbekistan",
+    "titleStart": "Raise your IELTS band",
+    "titleHighlight": "with AI",
+    "titleEnd": "feedback",
+    "subtitle": "Take exam-format mock tests and get a detailed, four-criteria score on your Writing in 30 seconds. No waiting for a tutor.",
+    "primaryCta": "Start a free mock test",
+    "secondaryCta": "See how it works",
+    "statStudents": "on the waitlist",
+    "statFeedback": "AI scoring time",
+    "statAccuracy": "band accuracy (mock)",
+    "previewBand": "Overall band",
+    "previewTask": "Writing Task 2",
+    "previewTip": "Vary your linkers: try “nevertheless” instead of another “however”."
+  },
+  "HowItWorks": {
+    "eyebrow": "How the platform works",
+    "title": "Four steps to your target band",
+    "subtitle": "Click each step to see what happens.",
+    "steps": {
+      "choose": {
+        "title": "Pick a module",
+        "description": "Choose Writing Task 1/2 or a Reading mock test, each in real exam timing and format.",
+        "detail": "Task 1 — 20 min, 150+ words · Task 2 — 40 min, 250+ words · Reading — 60 min"
+      },
+      "practice": {
+        "title": "Write under exam conditions",
+        "description": "A distraction-free editor, live word counter and a timer that warns you.",
+        "detail": "You can pause the timer, but remember the real exam won't let you."
+      },
+      "feedback": {
+        "title": "Get AI analysis",
+        "description": "A band for each of the four official criteria, inline corrections and three concrete tips.",
+        "detail": "Task Response · Coherence & Cohesion · Lexical Resource · Grammatical Range & Accuracy"
+      },
+      "track": {
+        "title": "Track your growth",
+        "description": "Your dashboard shows score history per skill and a diagnosis of weak areas.",
+        "detail": "The platform spots your weak points and recommends what to practise next."
+      }
+    }
+  },
+  "Pricing": {
+    "eyebrow": "Pricing",
+    "title": "Start free, go Pro when you're ready",
+    "subtitle": "During beta, everyone on the waitlist gets one month of Pro for free.",
+    "popular": "Most popular",
+    "soon": "Coming soon",
+    "free": {
+      "name": "Free",
+      "price": "$0",
+      "period": "forever",
+      "cta": "Start free",
+      "features": [
+        "2 Writing analyses per month",
+        "1 Reading mock test",
+        "Basic band report",
+        "Personal dashboard"
+      ]
+    },
+    "pro": {
+      "name": "Pro",
+      "price": "$6",
+      "period": "per month",
+      "cta": "Join waitlist",
+      "features": [
+        "Unlimited Writing analyses",
+        "All Reading mock tests",
+        "Detailed inline corrections",
+        "Weak-area diagnostics",
+        "Personal study plan"
+      ]
+    }
+  },
+  "Waitlist": {
+    "eyebrow": "Waitlist",
+    "title": "Get early access",
+    "subtitle": "We'll email you when the beta opens and give you one month of Pro free.",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "you@example.com",
+    "targetLabel": "Target band (optional)",
+    "targetPlaceholder": "e.g. 7.0",
+    "submit": "Join waitlist",
+    "submitting": "Submitting…",
+    "successTitle": "Thanks! You're on the list.",
+    "successText": "We'll email {email} when the beta opens.",
+    "again": "Add another email",
+    "privacy": "No spam. Unsubscribe any time.",
+    "errors": {
+      "emailRequired": "Please enter your email",
+      "emailInvalid": "That email doesn't look right",
+      "bandRange": "Band must be between 4.0 and 9.0",
+      "bandStep": "Band must be in 0.5 steps (e.g. 6.5)"
+    }
+  },
+  "Faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "q": "Is the AI band the same as an official IELTS result?",
+        "a": "No. IELTS.ai is not an official test and is not affiliated with the British Council, IDP or Cambridge. The AI band is an estimate based on the public assessment criteria, meant for practice."
+      },
+      {
+        "q": "Where do the test texts come from?",
+        "a": "Every mock test is original material written from scratch by our team. Nothing is copied from official Cambridge books."
+      },
+      {
+        "q": "Will Speaking and Listening be included?",
+        "a": "Yes. Writing and Reading launch first; Speaking (voice AI conversation) and Listening follow in later phases."
+      },
+      {
+        "q": "Can I use it on my phone?",
+        "a": "Absolutely. The platform is mobile-first and can be installed to your home screen as an app."
+      },
+      {
+        "q": "How do I pay?",
+        "a": "When Pro launches you'll be able to pay with Click, Payme and international cards."
+      }
+    ]
+  },
+  "Footer": {
+    "tagline": "AI-powered IELTS preparation platform.",
+    "disclaimer": "IELTS is a registered trademark of the British Council, IDP and Cambridge University Press & Assessment. IELTS.ai is not affiliated with them.",
+    "rights": "© {year} IELTS.ai"
+  }
+}
