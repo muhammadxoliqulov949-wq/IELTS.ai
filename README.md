@@ -18,7 +18,7 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:3000 — it redirects to `/uz`.
+Open http://localhost:8000 — it redirects to `/uz`.
 
 ## Structure
 
