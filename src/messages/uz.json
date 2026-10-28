@@ -277,6 +277,69 @@
       "disclaimer": "Band 40 savollik shkalaga moslab hisoblangan taxminiy natija, rasmiy IELTS natijasi emas."
     }
   },
+  "Dashboard": {
+    "greeting": "Salom, {name}!",
+    "subtitle": "Bugun maqsadingizga bir qadam yaqinlashing.",
+    "demo": "Demo maʼlumot",
+    "overall": "Umumiy band",
+    "target": "Maqsad: {band}",
+    "toTarget": "Maqsadgacha {gap} band qoldi",
+    "reachedTarget": "Maqsadga erishdingiz!",
+    "skills": {
+      "listening": "Listening",
+      "reading": "Reading",
+      "writing": "Writing",
+      "speaking": "Speaking"
+    },
+    "delta": "oldingi testdan {delta}",
+    "noChange": "oʻzgarishsiz",
+    "quickStart": {
+      "title": "Testni boshlash",
+      "writingTask1": "Writing Task 1",
+      "writingTask2": "Writing Task 2",
+      "reading": "Reading mock test",
+      "listening": "Listening",
+      "speaking": "Speaking",
+      "soon": "Tez orada"
+    },
+    "history": {
+      "title": "Natijalar tarixi",
+      "subtitle": "Oxirgi 6 oy, har bir koʻnikma boʻyicha band",
+      "chart": "Grafik",
+      "table": "Jadval",
+      "month": "Oy",
+      "months": [
+        "yan",
+        "fev",
+        "mar",
+        "apr",
+        "may",
+        "iyn",
+        "iyl",
+        "avg",
+        "sen",
+        "okt",
+        "noy",
+        "dek"
+      ]
+    },
+    "weakAreas": {
+      "title": "Zaif tomonlar",
+      "subtitle": "Eng koʻp ball yoʻqotayotgan joylaringiz",
+      "severity": {
+        "high": "Muhim",
+        "medium": "Oʻrtacha",
+        "low": "Past"
+      },
+      "practice": "Mashq qilish"
+    },
+    "recent": {
+      "title": "Soʻnggi urinishlaringiz",
+      "subtitle": "Shu brauzerda topshirgan testlaringiz",
+      "empty": "Hali test topshirmadingiz. Birinchi mock testni boshlang!",
+      "view": "Natijani koʻrish"
+    }
+  },
   "Footer": {
     "tagline": "Sunʼiy intellektga asoslangan IELTS tayyorgarlik platformasi.",
     "disclaimer": "IELTS — British Council, IDP va Cambridge University Press & Assessment kompaniyalarining roʻyxatdan oʻtgan savdo belgisi. IELTS.ai ular bilan bogʻliq emas.",

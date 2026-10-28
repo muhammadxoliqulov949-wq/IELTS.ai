@@ -7,6 +7,7 @@ import { TimerAlert } from "@/components/exam/timer-alert";
 import { useCountdown } from "@/hooks/use-countdown";
 import { useStorageValue } from "@/hooks/use-storage-value";
 import { evaluateWriting } from "@/mocks/handlers";
+import { recordAttempt } from "@/lib/attempts";
 import { clearDraft, countWords, draftKey, saveDraft, saveResult } from "@/lib/writing-storage";
 import { cn } from "@/lib/utils";
 import type { WritingSubmission, WritingTask } from "@/types/ielts";
@@ -46,6 +47,13 @@ export function WritingWorkspace({ task }: { task: WritingTask }) {
     };
     const feedback = await evaluateWriting(task, submission);
     saveResult(task.id, { submission, feedback });
+    recordAttempt({
+      skill: "writing",
+      title: task.title,
+      band: feedback.overallBand,
+      finishedAt: submission.submittedAt,
+      href: `/writing/${task.id}/result`,
+    });
     clearDraft(task.id);
     router.push(`/writing/${task.id}/result`);
   }

@@ -277,6 +277,69 @@
       "disclaimer": "The band is an estimate scaled to the 40-question format, not an official IELTS result."
     }
   },
+  "Dashboard": {
+    "greeting": "Hi, {name}!",
+    "subtitle": "Take one more step toward your target today.",
+    "demo": "Demo data",
+    "overall": "Overall band",
+    "target": "Target: {band}",
+    "toTarget": "{gap} band to your target",
+    "reachedTarget": "Target reached!",
+    "skills": {
+      "listening": "Listening",
+      "reading": "Reading",
+      "writing": "Writing",
+      "speaking": "Speaking"
+    },
+    "delta": "{delta} since last test",
+    "noChange": "no change",
+    "quickStart": {
+      "title": "Start a test",
+      "writingTask1": "Writing Task 1",
+      "writingTask2": "Writing Task 2",
+      "reading": "Reading mock test",
+      "listening": "Listening",
+      "speaking": "Speaking",
+      "soon": "Coming soon"
+    },
+    "history": {
+      "title": "Score history",
+      "subtitle": "Last 6 months, band per skill",
+      "chart": "Chart",
+      "table": "Table",
+      "month": "Month",
+      "months": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ]
+    },
+    "weakAreas": {
+      "title": "Weak areas",
+      "subtitle": "Where you lose the most points",
+      "severity": {
+        "high": "High",
+        "medium": "Medium",
+        "low": "Low"
+      },
+      "practice": "Practise"
+    },
+    "recent": {
+      "title": "Your recent attempts",
+      "subtitle": "Tests you took in this browser",
+      "empty": "No tests yet. Start your first mock test!",
+      "view": "View result"
+    }
+  },
   "Footer": {
     "tagline": "AI-powered IELTS preparation platform.",
     "disclaimer": "IELTS is a registered trademark of the British Council, IDP and Cambridge University Press & Assessment. IELTS.ai is not affiliated with them.",

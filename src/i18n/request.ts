@@ -10,6 +10,8 @@ export default getRequestConfig(async ({ requestLocale }) => {
 
   return {
     locale,
+    // Primary market is Uzbekistan; keeps server and client dates consistent.
+    timeZone: "Asia/Tashkent",
     messages: (await import(`../messages/${locale}.json`)).default,
   };
 });

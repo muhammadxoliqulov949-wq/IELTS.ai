@@ -5,6 +5,7 @@ import { useRouter } from "@/i18n/navigation";
 import { TimerAlert } from "@/components/exam/timer-alert";
 import { useCountdown } from "@/hooks/use-countdown";
 import { useStorageValue } from "@/hooks/use-storage-value";
+import { recordAttempt } from "@/lib/attempts";
 import {
   answersKey,
   clearAnswers,
@@ -42,7 +43,15 @@ export function ReadingWorkspace({ test }: { test: ReadingTest }) {
   const finish = useCallback(() => {
     if (finishedRef.current) return;
     finishedRef.current = true;
-    saveReadingResult(scoreReading(test, answers, timer.elapsed));
+    const result = scoreReading(test, answers, timer.elapsed);
+    saveReadingResult(result);
+    recordAttempt({
+      skill: "reading",
+      title: test.title,
+      band: result.band,
+      finishedAt: result.finishedAt,
+      href: `/reading/${test.id}/result`,
+    });
     clearAnswers(test.id);
     router.push(`/reading/${test.id}/result`);
   }, [answers, router, test, timer.elapsed]);

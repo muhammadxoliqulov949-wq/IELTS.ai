@@ -169,3 +169,16 @@ export interface WaitlistEntry {
   targetBand?: BandScore;
   createdAt: string;
 }
+
+// ---------- Attempt log ----------
+
+/** One finished mock test, stored locally so the dashboard can list it. */
+export interface AttemptRecord {
+  id: string;
+  skill: Skill;
+  title: string;
+  band: BandScore;
+  finishedAt: string;
+  /** Result page for this attempt. */
+  href: string;
+}
